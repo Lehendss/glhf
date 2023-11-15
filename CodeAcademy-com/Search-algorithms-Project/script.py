@@ -1,3 +1,4 @@
+
 def sparse_search(data, search_val):
     print("Data: " + str(data)) #"str" converts a variable to an data string(it's nessesary in python)
     print("Search Value: " + str(search_val))
@@ -31,6 +32,11 @@ def sparse_search(data, search_val):
             first = mid + 1
 
     print("{0} is not in the dataset".format(search_val))
+    
+datas = ["A", "", "", "", "B", "", "", "", "C"]
+target = "D"
+
+print(sparse_search(datas, target))
 
 
 
