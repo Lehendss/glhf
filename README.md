@@ -1,2 +1,2 @@
 # glhf
-Personal projects
+PRACTICE EXERCISES
